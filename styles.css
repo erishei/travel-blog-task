@@ -23,10 +23,38 @@ body {
 }
 
 .banner-content h1 {
-    color: peru;
+    color: lightgoldenrodyellow;
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
 
+}
+
+.topnav {
+    background-color: peru;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    /*position: relative;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*transform: none;*/
+}
+
+.topnav a:hover {
+    background-color: lightgoldenrodyellow;
+    color: peru;
+}
+
+.topnav a.active {
+    background-color: chocolate;
+    color: cornsilk;
 }

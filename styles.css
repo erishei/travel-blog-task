@@ -1,5 +1,5 @@
 body {
-    font-family: ;
+    font-family: Inter sans-serif;
 }
 
 .banner {
@@ -58,3 +58,35 @@ body {
     background-color: chocolate;
     color: cornsilk;
 }
+
+.card {
+    box-shadow: 0 2px 4px #00000010;
+    transition: 0.3s;
+    width: 256px;
+    height: 320px;
+    padding: 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px #00000030;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.flex-container {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
